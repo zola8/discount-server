@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "ab15ab05-33f9-4dd9-9dbe-d54bc05699e9",
+		"name": "ASSIGNMENTS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "removeDiscount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/assignment/removeDiscount?productId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assignment",
+						"removeDiscount"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assignDiscount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/assignment/assignDiscount?productId=2&discountId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"assignment",
+						"assignDiscount"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "2"
+						},
+						{
+							"key": "discountId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
